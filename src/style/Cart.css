@@ -1,0 +1,75 @@
+/* Container styles */
+.cart-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  /* Title styles */
+  .cart-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Message when there are no items in the cart */
+  .cart-message {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Grid/table styles */
+  .cart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Product name and brand styles */
+  .cart-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .cart-brand {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cart-name {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Product price styles */
+  .cart-price {
+    text-align: right;
+    font-weight: bold;
+    margin-left: auto;
+  }
+  
+  /* Total price styles */
+  .cart-total-price {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Quantity buttons */
+  .dec-btn,
+  .inc-btn {
+    border: none;
+    background-color: transparent;
+    color: #555;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  
+  .dec-btn:hover,
+  .inc-btn:hover {
+    color: #000;
+  }
+  
